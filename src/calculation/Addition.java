@@ -1,5 +1,6 @@
 package calculation;
 import java.util.Scanner;
+//import 	calculation.Subtraction;
 
 public class Addition
 {
@@ -17,6 +18,8 @@ public class Addition
 		
 		System.out.print("Enter a number2: ");
 		int num2 = scan.nextInt();
+		
 		add(num1,num2);
+		Subtraction.subtract(num1,num2);
 	}
 }
