@@ -17,5 +17,6 @@ public class Calculator
 		System.out.println("\nSum of two nukmber is "+Addition.add(num1,num2));
 		System.out.println("Subtraction of two nukmber is "+Subtraction.subtract(num1,num2));
 		System.out.println("Subtraction of two nukmber is "+Multiplication.multiply(num1, num2));
+		System.out.println("Division of two nukmber is "+Division.divide(num1, num2));
 	}
 }
