@@ -14,7 +14,7 @@ public class Calculator
 		System.out.print("Enter a number2: ");
 		int num2 = scan.nextInt();
 		
-		Addition.add(num1,num2);
-		Subtraction.subtract(num1,num2);
+		System.out.println("Sum of two nukmber is "+Addition.add(num1,num2));
+		System.out.println("Subtraction of two nukmber is "+Subtraction.subtract(num1,num2));
 	}
 }
